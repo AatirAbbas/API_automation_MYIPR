@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\fahim.abbas\AppData\Local\Temp\testng-eclipse-1467444259\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="createVersion1">createVersion1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="createVersion1">createVersion1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testCreateFile">testCreateFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testCreateUser">testCreateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testDeleteFilePermanently">testDeleteFilePermanently</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testDeleteFileVersion">testDeleteFileVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testKycUpdate">testKycUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testMoveFile">testMoveFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testProfileView">testProfileView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testRestoreFileFromRecycleBin">testRestoreFileFromRecycleBin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testRestoreFileVersion">testRestoreFileVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testSendCertificatetoRecycleBin">testSendCertificatetoRecycleBin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testVerifyUser">testVerifyUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testcreateFolder">testcreateFolder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testdeleteFolder">testdeleteFolder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testgetAllFolders">testgetAllFolders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testgetFileCertificate">testgetFileCertificate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testgetFileVersion">testgetFileVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.restassured.test.UserTests" class="method navigator-link" hash-for-method="testrenameFolder">testrenameFolder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.test.UserTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createVersion1">
+                  </a> <!-- createVersion1 -->
+                  <span class="method-name">createVersion1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createVersion1">
+                  </a> <!-- createVersion1 -->
+                  <span class="method-name">createVersion1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateFile">
+                  </a> <!-- testCreateFile -->
+                  <span class="method-name">testCreateFile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUser">
+                  </a> <!-- testCreateUser -->
+                  <span class="method-name">testCreateUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteFilePermanently">
+                  </a> <!-- testDeleteFilePermanently -->
+                  <span class="method-name">testDeleteFilePermanently</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteFileVersion">
+                  </a> <!-- testDeleteFileVersion -->
+                  <span class="method-name">testDeleteFileVersion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testKycUpdate">
+                  </a> <!-- testKycUpdate -->
+                  <span class="method-name">testKycUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin">
+                  </a> <!-- testLogin -->
+                  <span class="method-name">testLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveFile">
+                  </a> <!-- testMoveFile -->
+                  <span class="method-name">testMoveFile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProfileView">
+                  </a> <!-- testProfileView -->
+                  <span class="method-name">testProfileView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRestoreFileFromRecycleBin">
+                  </a> <!-- testRestoreFileFromRecycleBin -->
+                  <span class="method-name">testRestoreFileFromRecycleBin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRestoreFileVersion">
+                  </a> <!-- testRestoreFileVersion -->
+                  <span class="method-name">testRestoreFileVersion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSendCertificatetoRecycleBin">
+                  </a> <!-- testSendCertificatetoRecycleBin -->
+                  <span class="method-name">testSendCertificatetoRecycleBin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyUser">
+                  </a> <!-- testVerifyUser -->
+                  <span class="method-name">testVerifyUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcreateFolder">
+                  </a> <!-- testcreateFolder -->
+                  <span class="method-name">testcreateFolder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testdeleteFolder">
+                  </a> <!-- testdeleteFolder -->
+                  <span class="method-name">testdeleteFolder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testgetAllFolders">
+                  </a> <!-- testgetAllFolders -->
+                  <span class="method-name">testgetAllFolders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testgetFileCertificate">
+                  </a> <!-- testgetFileCertificate -->
+                  <span class="method-name">testgetFileCertificate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testgetFileVersion">
+                  </a> <!-- testgetFileVersion -->
+                  <span class="method-name">testgetFileVersion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testrenameFolder">
+                  </a> <!-- testrenameFolder -->
+                  <span class="method-name">testrenameFolder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\fahim.abbas\AppData\Local\Temp\testng-eclipse-1467444259\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.restassured.test.UserTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCreateUser')
+data.setCell(0, 2, 'com.restassured.test.UserTests')
+data.setCell(0, 3, 2921);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLogin')
+data.setCell(1, 2, 'com.restassured.test.UserTests')
+data.setCell(1, 3, 1837);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testKycUpdate')
+data.setCell(2, 2, 'com.restassured.test.UserTests')
+data.setCell(2, 3, 1360);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCreateFile')
+data.setCell(3, 2, 'com.restassured.test.UserTests')
+data.setCell(3, 3, 1306);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testVerifyUser')
+data.setCell(4, 2, 'com.restassured.test.UserTests')
+data.setCell(4, 3, 1030);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testRestoreFileFromRecycleBin')
+data.setCell(5, 2, 'com.restassured.test.UserTests')
+data.setCell(5, 3, 740);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createVersion1')
+data.setCell(6, 2, 'com.restassured.test.UserTests')
+data.setCell(6, 3, 620);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testgetFileVersion')
+data.setCell(7, 2, 'com.restassured.test.UserTests')
+data.setCell(7, 3, 564);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createVersion1')
+data.setCell(8, 2, 'com.restassured.test.UserTests')
+data.setCell(8, 3, 475);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testrenameFolder')
+data.setCell(9, 2, 'com.restassured.test.UserTests')
+data.setCell(9, 3, 363);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testDeleteFileVersion')
+data.setCell(10, 2, 'com.restassured.test.UserTests')
+data.setCell(10, 3, 347);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testSendCertificatetoRecycleBin')
+data.setCell(11, 2, 'com.restassured.test.UserTests')
+data.setCell(11, 3, 332);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testgetAllFolders')
+data.setCell(12, 2, 'com.restassured.test.UserTests')
+data.setCell(12, 3, 317);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testDeleteFilePermanently')
+data.setCell(13, 2, 'com.restassured.test.UserTests')
+data.setCell(13, 3, 311);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testgetFileCertificate')
+data.setCell(14, 2, 'com.restassured.test.UserTests')
+data.setCell(14, 3, 278);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testdeleteFolder')
+data.setCell(15, 2, 'com.restassured.test.UserTests')
+data.setCell(15, 3, 252);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testMoveFile')
+data.setCell(16, 2, 'com.restassured.test.UserTests')
+data.setCell(16, 3, 251);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testRestoreFileVersion')
+data.setCell(17, 2, 'com.restassured.test.UserTests')
+data.setCell(17, 3, 235);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testcreateFolder')
+data.setCell(18, 2, 'com.restassured.test.UserTests')
+data.setCell(18, 3, 233);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testProfileView')
+data.setCell(19, 2, 'com.restassured.test.UserTests')
+data.setCell(19, 3, 221);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.test.UserTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateUser</span>
+                <span class="method-start">309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVerifyUser</span>
+                <span class="method-start">3234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin</span>
+                <span class="method-start">4268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testKycUpdate</span>
+                <span class="method-start">6107 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProfileView</span>
+                <span class="method-start">7468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateFile</span>
+                <span class="method-start">7692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testgetFileCertificate</span>
+                <span class="method-start">9000 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcreateFolder</span>
+                <span class="method-start">9280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMoveFile</span>
+                <span class="method-start">9516 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testgetFileVersion</span>
+                <span class="method-start">9770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createVersion1</span>
+                <span class="method-start">10337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createVersion1</span>
+                <span class="method-start">10814 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSendCertificatetoRecycleBin</span>
+                <span class="method-start">11436 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testrenameFolder</span>
+                <span class="method-start">11771 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testdeleteFolder</span>
+                <span class="method-start">12135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRestoreFileFromRecycleBin</span>
+                <span class="method-start">12388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteFilePermanently</span>
+                <span class="method-start">13130 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testgetAllFolders</span>
+                <span class="method-start">13443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteFileVersion</span>
+                <span class="method-start">13761 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRestoreFileVersion</span>
+                <span class="method-start">14110 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-06T14:38:52 IST" name="Default suite" finished-at="2023-10-06T14:39:06 IST" duration-ms="14368">
+    <groups>
+    </groups>
+    <test started-at="2023-10-06T14:38:52 IST" name="Default test" finished-at="2023-10-06T14:39:06 IST" duration-ms="14368">
+      <class name="com.restassured.test.UserTests">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:38:52 IST" name="setupData" finished-at="2023-10-06T14:38:52 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testCreateUser()[pri:1, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:38:52 IST" name="testCreateUser" finished-at="2023-10-06T14:38:55 IST" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testVerifyUser()[pri:2, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:38:55 IST" name="testVerifyUser" finished-at="2023-10-06T14:38:56 IST" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser -->
+        <test-method signature="testLogin()[pri:3, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:38:56 IST" name="testLogin" finished-at="2023-10-06T14:38:58 IST" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testKycUpdate()[pri:4, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:38:58 IST" name="testKycUpdate" finished-at="2023-10-06T14:39:00 IST" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testKycUpdate -->
+        <test-method signature="testProfileView()[pri:6, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:00 IST" name="testProfileView" finished-at="2023-10-06T14:39:00 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfileView -->
+        <test-method signature="testCreateFile()[pri:7, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:00 IST" name="testCreateFile" finished-at="2023-10-06T14:39:01 IST" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateFile -->
+        <test-method signature="testgetFileCertificate()[pri:8, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:01 IST" name="testgetFileCertificate" finished-at="2023-10-06T14:39:01 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetFileCertificate -->
+        <test-method signature="testcreateFolder()[pri:9, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:01 IST" name="testcreateFolder" finished-at="2023-10-06T14:39:02 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateFolder -->
+        <test-method signature="testMoveFile()[pri:10, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:02 IST" name="testMoveFile" finished-at="2023-10-06T14:39:02 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMoveFile -->
+        <test-method signature="testgetFileVersion()[pri:11, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:02 IST" name="testgetFileVersion" finished-at="2023-10-06T14:39:02 IST" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetFileVersion -->
+        <test-method signature="createVersion1()[pri:12, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:02 IST" name="createVersion1" finished-at="2023-10-06T14:39:03 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createVersion1 -->
+        <test-method signature="createVersion1()[pri:12, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:03 IST" name="createVersion1" finished-at="2023-10-06T14:39:04 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createVersion1 -->
+        <test-method signature="testSendCertificatetoRecycleBin()[pri:13, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:04 IST" name="testSendCertificatetoRecycleBin" finished-at="2023-10-06T14:39:04 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendCertificatetoRecycleBin -->
+        <test-method signature="testrenameFolder()[pri:14, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:04 IST" name="testrenameFolder" finished-at="2023-10-06T14:39:04 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testrenameFolder -->
+        <test-method signature="testdeleteFolder()[pri:15, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:04 IST" name="testdeleteFolder" finished-at="2023-10-06T14:39:05 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdeleteFolder -->
+        <test-method signature="testRestoreFileFromRecycleBin()[pri:16, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:05 IST" name="testRestoreFileFromRecycleBin" finished-at="2023-10-06T14:39:05 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestoreFileFromRecycleBin -->
+        <test-method signature="testDeleteFilePermanently()[pri:17, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:05 IST" name="testDeleteFilePermanently" finished-at="2023-10-06T14:39:06 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteFilePermanently -->
+        <test-method signature="testgetAllFolders()[pri:18, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:06 IST" name="testgetAllFolders" finished-at="2023-10-06T14:39:06 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetAllFolders -->
+        <test-method signature="testDeleteFileVersion()[pri:19, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:06 IST" name="testDeleteFileVersion" finished-at="2023-10-06T14:39:06 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteFileVersion -->
+        <test-method signature="testRestoreFileVersion()[pri:20, instance:com.restassured.test.UserTests@30c15d8b]" started-at="2023-10-06T14:39:06 IST" name="testRestoreFileVersion" finished-at="2023-10-06T14:39:06 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestoreFileVersion -->
+      </class> <!-- com.restassured.test.UserTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
